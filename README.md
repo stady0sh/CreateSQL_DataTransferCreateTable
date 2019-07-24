@@ -1,0 +1,2 @@
+# CreateSQL_DataTransferCreateTable
+CreateTableSQLに、同一テーブル名の同一項目が存在する列のデータを引き継ぐ
