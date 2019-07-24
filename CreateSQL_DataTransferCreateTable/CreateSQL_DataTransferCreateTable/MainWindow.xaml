@@ -1,0 +1,19 @@
+﻿<Window x:Class="CreateSQL_DataTransferCreateTable.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CreateSQL_DataTransferCreateTable"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="500">
+    <Grid>
+        <Button Content="CreateSQL" HorizontalAlignment="Left" Margin="128,135,0,0" VerticalAlignment="Top" Width="236" Height="62" FontSize="36" AutomationProperties.Name="btnEnter" Click="btnEnter_Click"/>
+        <StatusBar HorizontalAlignment="Left" Height="37" Margin="0,232,0,0" VerticalAlignment="Top" Width="492">
+            <ProgressBar Height="27" Width="482"/>
+        </StatusBar>
+        <Button Content="選択" HorizontalAlignment="Left" Margin="410,66,0,0" VerticalAlignment="Top" Width="72" Height="23" AutomationProperties.Name="btnSelection" Click="btnSelection_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="74,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="331" AutomationProperties.HelpText="create sql file path" AutomationProperties.Name="txtPath"/>
+        <Label Content="ファイル：" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" Height="23" Width="59"/>
+
+    </Grid>
+</Window>
